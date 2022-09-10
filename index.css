@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+body .container {
+    color: #EEEEEE
+}
+
+div .home-score {
+    border:10px solid black;
+    background: black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+                                                
+    
+}
+
+div .guest-score {
+    border: 10px solid black;
+    background: black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;                                                                   font-family: 'Cursed Timer ULiL', sans-serif;
+     color: #F94F6D;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+}
+
+div h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+button  {
+   font-family: 'Cursed Timer ULiL', sans-serif;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    
+    
+}
+
+#btn-home {
+    text-align: center;
+    position:absolute;
+    bottom: 414;
+    left: 285;
+    
+    
+}
+
+#btn-guest {
+    text-align: center;
+    position: absolute;
+    bottom: 414;
+    right: 285;
+}
