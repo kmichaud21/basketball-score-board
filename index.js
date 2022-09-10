@@ -32,3 +32,18 @@ function increment3() {
     count = count + 3
     countEl2.innerText = count
 }
+
+// New game button
+
+function newGame() {
+    homeScore = 0
+    awayScore = 0
+
+    count = document.getElementById("count-el-1")
+    countEl1.textContent = homeScore
+
+    count = document.getElementById("count-el-2")
+    countEl2.textContent = awayScore;
+
+    console.log("New game!")
+}
